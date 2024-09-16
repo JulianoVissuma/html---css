@@ -4,33 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <title>Meio site</title>
+    <title>Meu site</title>
     <style>
-
         body{
-            height: 100vh;
-            background-color: black;
-            background-image: url('img/Fazenda.jpg');
-            background-repeat: no-repeat;
-            background-position: center top;
+            background: black url('img/Fazenda.jpg')  center top no-repeat fixed;
             background-size: cover;
-            background-attachment: fixed;
+            
+            
            
         }
+        div{
+        
+            position: relative;
+            height: 10vh;
+
+            padding: 10px;
+        }
         main{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: white;
             border-radius: 20px;
-            max-width: 700px;
             padding: 20px;
-            margin: auto
-        }
+            position: absolute;
 
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
     </style>
 </head>
 <body>
+    <div>
     <main>
         <h1>Testando imagens</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quo iste culpa alias tenetur ab blanditiis magnam animi ea numquam assumenda provident, quas velit pariatur obcaecati dolorum cum, corporis cupiditate?
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quo iste culpa alias tenetur ab blanditiis magnam animi ea numquam assumenda provident, quas velit pariatur obcaecati dolorum cum, corporis cupiditate?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quo iste culpa alias tenetur ab blanditiis magnam animi ea numquam assumenda provident, quas velit pariatur obcaecati dolorum cum, corporis cupiditate?</p>
+    
+    
     </main>
+</div>
 </body>
 </html>

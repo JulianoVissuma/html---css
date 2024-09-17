@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Responsivas</title>
+</head>
+<body>
+    <h1>Tenta abrir este site em diferentes tamanhos</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repellendus omnis accusantium repudiandae exercitationem odit tempore molestias quo ratione quas optio consequatur itaque dicta provident consequuntur modi eveniet, dolor facere.</p>
+    <picture>
+        <!--A ordem tem que ser esta se não o codico não funciona -->
+        <source media="(max-width: 708px)" srcset="respon/3.jpg" type="image/jpg">
+        <source media="(max-width: 1108px)" srcset="respon/2.jpg" type="image/jpg">
+        <img src="respon/1.jpg" alt="imagens grande">
+    </picture>
+    <h1>Adicionando Audios</h1>
+    <!--Forma 1 de adicionar audio no site-->
+    <audio preload="metadata" autoplay controls>
+        <source src="audio/osg_TPO_080.mp3" type="audio/mp3">
+    </audio>
+    <!--Forma 2 de adicionar audio no site-->
+    <audio src="audio/osg_TPO_080.mp3" controls autoplay></audio>
+</body>
+</html>

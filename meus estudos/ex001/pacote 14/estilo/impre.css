@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*  Tela para imprimir */
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+menu{
+    display: none;
+}
+main h2{
+    padding: 10px;
+    text-align: center;
+}
+main p{
+    text-align: left;
+    line-height: 1em;
+    margin: 10px;
+}
+
+article::after{
+    content: 'Desenvolvido por Juliano Vissuma';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

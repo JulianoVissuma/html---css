@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora de idade</h1>
+    <p>
+        <label for="idad">Ano de nascença </label>
+        <input type="number" id="idad" min="1900" max="2024" required oninput="calIdade()">
+    </p>
+    <p>
+        <label for="idade">Sua idade atual</label>
+        <output id="idade">0</output>
+    </p>
+    <script>
+        function calIdade(){
+            let atual = new Date().getFullYear()
+            idade.innerHTML = Number(atual) - Number(idad.value)
+        }
+    </script>
+</body>
+</html>

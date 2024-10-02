@@ -1,0 +1,59 @@
+@charset "UFT-8";
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgrey;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.378);
+}
+header h1{
+    text-align: center;
+    padding: 10px;
+}
+
+header li{
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-bottom: 1px solid white;
+    font-weight: bolder;
+    color: white;
+}
+header li:hover{
+    background-color: rgba(211, 211, 211, 0.605);
+    cursor: pointer;
+}
+span#humb{
+    cursor: pointer;
+    background-color: rgb(0 0 0 / 62%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+menu{
+    display: none;
+}
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 20px;
+}
+main h1{
+    margin: 10px;
+}
+main p{
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}

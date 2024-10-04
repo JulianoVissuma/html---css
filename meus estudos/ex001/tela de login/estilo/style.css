@@ -1,0 +1,125 @@
+@charset "UFT-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html{
+    height: 100vh;
+    background: #137858;
+    background: linear-gradient(146deg, #137757 27%, #2c326c 75%) no-repeat;
+}
+section#blok{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.326);
+    width: 292px;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.282);
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    /*Animação*/
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
+}
+div#tdo{
+    display: block;
+    width: 100%;
+    
+}
+div#foto{
+    
+    
+    height: 500px;
+    display: none;
+}
+div#formu{
+    display: block;
+    padding: 10px;
+}
+div#formu h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 2em;
+}
+div#formu p{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    font-size: 0.9em;
+    padding: 10px;
+}
+hr{
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+form{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+form > input[type=submit]{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    background-color: #137757;
+    border: rgb(0, 0, 0);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    cursor: pointer;
+}
+form > input[type=submit]:hover{
+    background-color: #3ed8a7;
+}
+form .link{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-top: -8px;
+}
+form .link:hover{
+    color: #137757;
+    text-decoration: underline;
+}
+.user{
+    text-align: center;
+    margin: 10px;
+}
+label > span{
+    background-color: #3d796660;
+    color: white;
+    padding: 5px;
+}
+div .user > input{
+    border: none;
+    height: 35px;
+    width: 80%;
+    transform: translateY(-6px);
+    background-color: rgba(255, 255, 255, 0.558);
+    font-size: .8em;
+    
+}
+div .user > input:focus-within{
+    background-color: white;
+}
+input {
+    padding-left: 0px; /* Adiciona um espaçamento à esquerda dentro do input */
+  }
+
+
+
+
+

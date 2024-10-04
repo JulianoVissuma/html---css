@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    section#blok{
+        width: 60%;
+        height: 60%;
+        
+    }
+    section > div#foto{
+        display: block;
+        float: left;
+        background-image: url('../img/—Pngtree—pure\ blue\ green\ gradient\ clouds_949306.jpg');
+        background-size: cover;
+        height: 100%;
+        width: 35%;
+    }
+    section#blok > div#formu{
+        float: right;
+        width: 60%;
+    }
+    div#formu p{
+        text-align: center;
+        color: white;
+        margin-top: 15px;
+        font-size: 1em;
+        padding: 10px;
+    }
+    
+}
+@media screen and (min-width: 993px){
+    section#blok{
+        width: 60%;
+        height: 70%;
+        clear: both;
+    }
+    section > div#foto{
+        display: block;
+        float: right;
+        background-image: url('../img/5484597.jpg');
+        background-size: cover;
+        height: 100%;
+        width: 45%;
+    }
+    section#blok > div#formu{
+        float: left;
+        width: 51%;
+    }
+    div#formu p{
+        font-size: 1.2em;
+    }
+    hr{
+        width: 300px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+

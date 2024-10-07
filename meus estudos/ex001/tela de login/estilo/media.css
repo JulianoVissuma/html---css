@@ -51,6 +51,11 @@
     hr{
         width: 300px;
     }
+    form > input[type=submit]{
+        width: 88%;
+        text-align: center;
+        margin: auto;
+    }
     
 }
 
